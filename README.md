@@ -9,6 +9,9 @@ A análise parte do aplicativo atual e, a partir dos problemas e
 oportunidades encontrados, propõe uma estratégia de evolução
 mantendo React Native como base.
 
+Análise realizada na versão 1.0.95 do aplicativo Android, incluindo o
+CRM web e as avaliações públicas nas lojas.
+
 ## Documentos
 
 ### 1. Análise do aplicativo
@@ -42,7 +45,19 @@ Funcionalidades que fazem sentido especificamente no celular,
 sem simplesmente reproduzir a experiência web.
 
 ### 6. Tarefas e estimativas
-[Ver issues](https://github.com/datacrazy-desafio-mobile)
 
-Lista das principais tarefas técnicas, prioridades e estimativas.
+[Ver quadro no GitHub Projects](https://github.com/users/gabriel-fh/projects/2)
+· [Ver issues](https://github.com/gabriel-fh/datacrazy-desafio-mobile/issues)
 
+Plano de execução dividido em cinco blocos, cada um como um milestone
+com o esforço estimado. As issues detalham o conteúdo de cada bloco,
+com contexto e critério de aceite.
+
+A granularidade é deliberada. Correções pontuais mapeadas na análise
+foram agrupadas em issues de lote, e a estimativa é por bloco e não
+por tarefa individual, porque o que sustenta um prazo é o escopo do
+conjunto, não a soma de itens pequenos.
+
+As issues foram criadas pelo script em
+[`scripts/criar-issues.sh`](./scripts/criar-issues.sh), usando o
+GitHub CLI, a partir das tarefas levantadas nos documentos acima.
