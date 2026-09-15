@@ -74,5 +74,4 @@ O escopo é intencionalmente estreito. O protótipo cobre a tela
 detalhada no documento 3, que é a demanda de cliente citada no
 desafio, e serve para tornar visíveis as decisões de interação
 descritas lá: uma coluna por vez em pager horizontal, movimentação
-por bottom sheet em vez de drag cross-coluna, e estados vazio e de
-erro tratados como telas distintas.
+por bottom sheet em vez de drag cross-coluna, etc.
