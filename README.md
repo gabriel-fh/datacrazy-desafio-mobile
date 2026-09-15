@@ -61,3 +61,18 @@ conjunto, não a soma de itens pequenos.
 As issues foram criadas pelo script em
 [`scripts/criar-issues.sh`](./scripts/criar-issues.sh), usando o
 GitHub CLI, a partir das tarefas levantadas nos documentos acima.
+
+### 7. Protótipo
+
+[Ver telas](./prototipo/) · [Abrir no Figma](https://www.figma.com/design/bRjOJfKUopO7O2z7OSpySi/Datacrazy---kanban?node-id=0-1&t=TvNm8TzM2REa6lmw-1)
+
+Protótipo de alta fidelidade do Kanban mobile, com cinco telas
+cobrindo os estados principais: lista preenchida, menu do card,
+movimentação entre etapas, estado vazio e erro de carregamento.
+
+O escopo é intencionalmente estreito. O protótipo cobre a tela
+detalhada no documento 3, que é a demanda de cliente citada no
+desafio, e serve para tornar visíveis as decisões de interação
+descritas lá: uma coluna por vez em pager horizontal, movimentação
+por bottom sheet em vez de drag cross-coluna, e estados vazio e de
+erro tratados como telas distintas.
